@@ -10,7 +10,7 @@ export default function NavBar() {
         <Navbar.Brand href="#home">
             <img
               alt=""
-              src="ICPC-Logo.png"
+              src="/public/Images/ICPC-Logo.png"
               width="35"
               height="35"
               className="d-inline-block align-center"
