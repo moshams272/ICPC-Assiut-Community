@@ -23,7 +23,7 @@ export default function AboutUs() {
           </Col>
           <Col xs={4}>
             <img
-              src="ICPC-Original-Logo.png"
+              src="/src/assets/Images/ICPC-Original-Logo.png"
               alt="ICPC Logo"
               style={{ height: "350px" }}
             />
@@ -34,7 +34,7 @@ export default function AboutUs() {
         <Row>
           <Col xs={4}>
             <img
-              src="ICPC-Logo.png"
+              src="/src/assets/Images/ICPC-Logo.png"
               alt="ICPC Assiut Logo"
               style={{ height: "350px"}}
             />

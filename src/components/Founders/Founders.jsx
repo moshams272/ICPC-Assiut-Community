@@ -10,7 +10,7 @@ export default function Founders() {
         <Row>
           <Col xs={6}>
             <Card className="m-auto" style={{ width: "18rem" ,border:"0px"}}>
-              <Card.Img variant="top" src="Hussien-Ibrahim.jpg" />
+              <Card.Img variant="top" src="/src/assets/Images/Hussien-Ibrahim.jpg" alt="Hussien Ibrahim Photo"/>
               <Card.Body style={{height:"170px"}}>
                 <Card.Title>Hussien Ibrahim</Card.Title>
                 <Card.Text>
@@ -24,7 +24,7 @@ export default function Founders() {
           </Col>
           <Col xs={6}>
             <Card className="m-auto" style={{ width: "18rem" ,border:"0px"}}>
-              <Card.Img variant="top" src="Ayman-Morsy.jpg" />
+              <Card.Img variant="top" src="/src/assets/Images/Ayman-Morsy.jpg" alt="Ayman Morsy Photo"/>
               <Card.Body style={{height:"170px"}}>
                 <Card.Title>Ayman Morsy</Card.Title>
                 <Card.Text>
