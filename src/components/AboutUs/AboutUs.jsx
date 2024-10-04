@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 export default function AboutUs() {
   return (
     <div id="aboutus" style={{padding:"40px 0px"}}>
+      <p style={{textAlign:"center",fontSize:"40px",margin:"40px 0px 25px",color:"#db1111"}}>About Us</p>
       <Container className="m-5 p-5 mt-0">
         <Row>
           <Col xs={8} className="m-auto fs-5">
