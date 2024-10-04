@@ -23,7 +23,7 @@ export default function AboutUs() {
           </Col>
           <Col xs={4}>
             <img
-              src="../../assets/Images/ICPC-Original-Logo.png"
+              src="/src/assets/Images/ICPC-Original-Logo.PNG"
               alt="ICPC Logo"
               style={{ height: "350px" }}
             />
