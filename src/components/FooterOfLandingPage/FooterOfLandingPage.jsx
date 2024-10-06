@@ -22,6 +22,7 @@ export default function FooterOfLandingPage() {
         <br />
         <Link
           to={"https://www.facebook.com/icpcassiutt/"}
+          target="_blank"
         >
           <FaFacebookSquare
             size={"22px"}
@@ -37,10 +38,11 @@ export default function FooterOfLandingPage() {
           to={
             "https://www.linkedin.com/company/icpc-assiut/posts/?feedView=all"
           }
-          style={{ color: colorOfLinkedinIcon }}
-        >
+          target="_blank"
+          >
           <FaLinkedin
             size={"22px"}
+            style={{ color: colorOfLinkedinIcon }}
             onPointerEnter={() => {
               BsCursor("pointer");
               setColorOfLinkedinIcon("rgb(149,149,149)");
