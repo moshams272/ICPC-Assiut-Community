@@ -4,12 +4,21 @@ import Col from "react-bootstrap/Col";
 
 export default function AboutUs() {
   return (
-    <div id="aboutus" style={{padding:"40px 0px"}}>
-      <p style={{textAlign:"center",fontSize:"40px",margin:"40px 0px 25px",color:"#db1111"}}>About Us</p>
+    <div id="aboutus" style={{ padding: "40px 0px" }}>
+      <p
+        style={{
+          textAlign: "center",
+          fontSize: "43px",
+          margin: "40px 0px 25px",
+          textShadow:"2px 4px 5px rgb(0,0,0,0.5)"
+        }}
+      >
+        About Us
+      </p>
       <Container className="m-5 p-5 mt-0">
         <Row>
           <Col xs={8} className="m-auto fs-5">
-            <p style={{ fontSize: "40px" }}>
+            <p style={{ fontSize: "35px" }}>
               The International Collegiate Programming Contest
               &ldquo;ICPC&rdquo;
             </p>
@@ -36,11 +45,11 @@ export default function AboutUs() {
             <img
               src="/src/assets/Images/ICPC-Logo.png"
               alt="ICPC Assiut Logo"
-              style={{ height: "350px"}}
+              style={{ height: "350px" }}
             />
           </Col>
           <Col xs={8} className="m-auto fs-5">
-            <p style={{ fontSize: "40px" }}>ICPC Assiut Community</p>
+            <p style={{ fontSize: "35px" }}>ICPC Assiut Community</p>
             is a vibrant and dedicated group focused on competitive programming.
             The community also provides educational resources, offering
             tutorials on topics such as binary search and complexity analysis.
