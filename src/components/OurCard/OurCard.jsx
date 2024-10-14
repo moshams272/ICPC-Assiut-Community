@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { Button } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { BsCursor } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function OurCard({ src, alt, name, info, link }) {
   const [shadow,setShadow]=useState("0px 0px 0px white");
@@ -10,10 +12,10 @@ export default function OurCard({ src, alt, name, info, link }) {
     style={{ width: "18rem", border: "0px" ,boxShadow:shadow}}
     onPointerEnter={()=>{
       setShadow(`
-        20px 20px 30px rgb(255,0,0,0.5),
-        -20px 20px 30px rgb(255,0,0,0.5),
-        20px -20px 30px rgb(255,0,0,0.5),
-        -20px -20px 30px rgb(255,0,0,0.5)
+        20px 20px 35px rgb(255,0,0,0.5),
+        -20px 20px 35px rgb(255,0,0,0.5),
+        20px -20px 35px rgb(255,0,0,0.5),
+        -20px -20px 35px rgb(255,0,0,0.5)
         `)
         BsCursor("pointer")
     }}
@@ -31,7 +33,9 @@ export default function OurCard({ src, alt, name, info, link }) {
         <Card.Text>{info}</Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href={link}>Linkedin</Card.Link>
+        <Link to={link} target="_blank">
+        <Button variant="dark">Linkedin</Button>
+        </Link>
       </Card.Body>
     </Card>
   );
